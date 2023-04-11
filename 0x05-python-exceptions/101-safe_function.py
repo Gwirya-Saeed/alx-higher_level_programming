@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def save_function(fct, *args):
+def safe_function(fct, *args):
     try:
         r = fct(*args)
         return r
